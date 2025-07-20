@@ -25,3 +25,7 @@ eureka:
         fetch-registry: true
         service-url: 
             defaultZone: http://localhost:8761/eureka
+    instance:
+        hostname: localhost
+        lease-renewal-interval-in-seconds: 90
+        lease-expiration-duration-in-seconds: 30
